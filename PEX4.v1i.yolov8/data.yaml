@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['fork', 'knife', 'spoon']
+
+roboflow:
+  workspace: michaela-kovalsky
+  project: pex4-msjtx
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/michaela-kovalsky/pex4-msjtx/dataset/1
